@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <title>Adomicilio Eat</title>
+</head>
+
+<body>
+
+    <div class="menu">
+        <a title="regresa" href="#"><img src="img/regresar.png" style="width: 32px; height: 32px;margin-left: 25px; margin-top: 13px;"/></a>
+        <div id="titulo" style="margin-left: 50px; margin-bottom: 25px; POSITION: absolute; top: 25px;">
+            <h1 style="font-size: 18px;font-weight: bold;" align="center">REGISTRAR OFERTA</h1>
+        </div>
+    </div>
+
+    <div class="dato" style="bottom: 0px;
+    top: 0px;    right: 0px; margin-top: 100px; left: 0px; margin-left: 5px;">
+    <input type="file" id="files" name="files[]" /><output id="list"></output>
+
+
+        <form method="post" style="width: 400px;margin-top: 120px;">
+            <label id="texto" for="fname">Nombre</label>
+            <input id="inp" type="text" name="u" placeholder="" required="required" />
+            <label id="texto" for="fruc">Desripci&oacute;n</label>
+            <input id="inp" type="text" name="p" placeholder="" required="required" />
+            <label id="texto" for="fcodigo">Precio</label> <label id="texto" for="fcodigo" style="float: right;margin-right: 70px;">Descuento</label><br/>
+            <input id="inp" style="width:120px;float:left" type="number" name="p" placeholder="" required="required" />
+            <input id="inp" style="width:120px;float:right" type="number" name="p" placeholder="" required="required" />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <label id="texto" for="fcorreo">Fecha</label>
+            <BR/>
+            <input type="date" id="inp" style="width:320px;" name="fecha" required="required">               
+            <button id="aceptar2" type="submit">REGISTRAR</button>
+        </form>
+    </div>
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
